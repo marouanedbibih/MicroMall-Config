@@ -2,7 +2,7 @@
 # Config for Eureka server in Kubernetes
 eureka:
     instance:
-        hostname: ${EUREKA_SERVICE}
+        hostname: micromall-discovery-server
     client:
         registerWithEureka: false
         fetchRegistry: false
