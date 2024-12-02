@@ -1,11 +1,11 @@
 eureka:
   instance:
-    hostname: localhost
+    hostname: ${EUREKA_HOSTNAME}
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://${EUREKA_HOSTNAME}:8761/eureka
 name:
-  value: alibou
+  value: micromall
 spring:
   cloud:
     config:
